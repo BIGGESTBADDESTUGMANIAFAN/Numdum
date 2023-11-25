@@ -1,0 +1,7 @@
+C:\Users\danie\source\repos\Numdum\NumdumInterpretor\bin\Debug\NumdumInterpretor.exe.config
+C:\Users\danie\source\repos\Numdum\NumdumInterpretor\bin\Debug\NumdumInterpretor.exe
+C:\Users\danie\source\repos\Numdum\NumdumInterpretor\bin\Debug\NumdumInterpretor.pdb
+C:\Users\danie\source\repos\Numdum\NumdumInterpretor\obj\Debug\NumdumInterpretor.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\Numdum\NumdumInterpretor\obj\Debug\NumdumInterpretor.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\Numdum\NumdumInterpretor\obj\Debug\NumdumInterpretor.exe
+C:\Users\danie\source\repos\Numdum\NumdumInterpretor\obj\Debug\NumdumInterpretor.pdb
