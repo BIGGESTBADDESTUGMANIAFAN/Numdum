@@ -1,0 +1,10 @@
+﻿  Interpretor.c
+C:\Users\danie\source\repos\NumdumIntC\NumdumIntC\Variables.h(22,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\danie\source\repos\NumdumIntC\NumdumIntC\Variables.h(29,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\danie\source\repos\NumdumIntC\NumdumIntC\Keywords.h(10,2): warning C4091: 'typedef ': ignored on left of 'Token' when no variable is declared
+C:\Users\danie\source\repos\NumdumIntC\NumdumIntC\Keywords.h(39,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\danie\source\repos\NumdumIntC\NumdumIntC\Keywords.h(108,17): warning C4013: 'Syntaxcheck' undefined; assuming extern returning int
+C:\Users\danie\source\repos\NumdumIntC\NumdumIntC\Keywords.h(60,1): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\danie\source\repos\NumdumIntC\NumdumIntC\Keywords.h(98,1): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\danie\source\repos\NumdumIntC\NumdumIntC\Interpretor.c(45,40): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+  NumdumIntC.vcxproj -> C:\Users\danie\source\repos\NumdumIntC\Debug\NumdumIntC.exe
