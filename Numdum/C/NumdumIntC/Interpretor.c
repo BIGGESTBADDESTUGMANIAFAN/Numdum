@@ -4,6 +4,8 @@
 #include "Keywords.h"
 #include "Misc.h"
 #include <conio.h>
+
+
 int main(int argc, char **argv)
 {
 
@@ -58,7 +60,7 @@ int main(int argc, char **argv)
 		switch (LineOnTkns[0])
 		{
 			case END:
-				printf_s("%s", "End of program reached.");
+				printf_s("%s", "End of program reached.\n");
 				return 0;
 			case ADD:
 				if (LineOnTkns[1] == 14) {
