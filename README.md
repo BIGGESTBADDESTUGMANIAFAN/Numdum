@@ -32,13 +32,11 @@ It becomes a GOTO destination. These GOTO destinations are completely constant a
 ## Keywords
 Numdum includes the following keywords:
 
-	SET
-	ADD
- 	SUB
-	MUL
-	DIV
- 	TO
-	AND
+	SET TO
+	ADD AND
+ 	SUB AND
+	MUL AND
+	DIV AND
  	INPUT
 	INPUTR
  	OUTPUT
@@ -68,15 +66,15 @@ The equation for all operators is as follows:
  	MUL: left = left x right
 	DIV: left = left ÷ right
 
-### user interactions
-User interactions are the four keywords (INPUT, INPUTR, OUTPUT, OUTPUTR) that allow for input to be taken from the person running the script, and all follow the following syntax:
+### I/O
+There are four I/O keywords (INPUT, INPUTR, OUTPUT, OUTPUTR) that allow for input to be taken from the person running the script. The syntax is as follows:
 > KEYWORD{variable}
 
 Each user interaction keyword does the following:
 
 	OUTPUT{variable} 
 
-Prints one character to the console, being the value of variable converted to a character from an ASCII code
+Prints one character to the console, being the value of variable converted to a character according to the ASCII code
 
 	OUTPUTR{variable} 
 
@@ -93,4 +91,15 @@ Sets the value of variable to the next character inputted by the user, converted
 Sets the value of variable to a number inputted by user. The number can be signed and decimal. The number will be echoed without a trailing newline. If the user inputs a non-valid number, they will be alerted and prompted to reinput a new value until a valid number is entered.
 
 ### GOTO
-Goto statements are the only available way to change excecution order in numdum, as 
+Goto statements are the only available way to change excecution order in numdum. It uses the following syntax:
+
+	GOTO{variable}
+ 
+ A GOTO statement will jump unconditionally to the label corresponding with the value of the variable.
+e.g.
+	GOTO5
+ will jump to the label
+ 	5:
+  however, if 5 has a value of 3 it will jump to 
+  	3:
+
